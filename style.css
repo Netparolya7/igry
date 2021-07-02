@@ -1,0 +1,78 @@
+img{
+    width: 200px;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: black 2px solid;
+    width: 48%;
+    height:500px ;
+    text-align: center;
+    padding: 2% 0;
+    margin:3% 0 ;
+    position: relative;
+}
+.a{
+    color: blue;
+}
+.main{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-around;
+}
+#hs{
+    background-color: aqua;
+    color: rgb(1, 25, 77);
+}
+#hs button{
+    border-radius: 100%;
+    padding:2% ;
+    background-color: rgb(111, 111, 221);
+    color: rgb(194, 245, 247);
+    border:none ;
+    outline: none;
+}
+#hs button:hover{
+    background-color:rgb(194, 245, 247);
+    color: rgb(111, 111, 221);
+cursor: pointer;
+}
+#hs p{
+    background-color:rgba(159, 216, 216, 0.637);
+}
+
+#ab{
+    background-color: mediumseagreen;
+    color: rgb(247, 9, 159);
+}
+#ab button{
+    border-radius: 100%;
+    padding: 2%;
+    background-color: rgb(131, 216, 34);
+    color: rgb(7, 75, 47);
+    border:none ;
+    outline: none;
+}
+#ab button:hover{
+    background-color: black;
+    color: black;
+    cursor: help;
+}
+#header{
+    height: 100px;
+    background-image: url(images/tonnel.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+#hs_c{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: rgb(20, 238, 30);
+    font-size: 20px;
+}
